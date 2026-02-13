@@ -1,0 +1,12 @@
+```{python}
+def fib_rs(n):
+    if (n==1 or n==2):
+        return 1
+    else:
+        return fib_rs(n - 1) + fib_rs(n - 2)
+
+%timeit fib_rs(10)
+
+```
+
+hello
